@@ -34,3 +34,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * Install version 5.50 following instruction on the above link
 
 * Before make add include <linux/sockios.h> to files ```l2test.c``` and ```rctest.c```
+
+## BLE App based on python project
+* https://github.com/Douglas6/cputemp
+* *  sudo nano /etc/systemd/system/dbus-org.bluez.service add the line 
+```
+	ExecStart=/usr/lib/bluetooth/bluetoothd -E
+```
