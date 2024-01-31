@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/iguslogo.png">
+  <HelloWorld msg="Welcome to iCee BLE App"/>
+	<div>
+	<BluetoothScanner />
+	</div>
+	<div>
+		<h3>Ecosystem</h3>
+		<p>
+			Brought by Smart Plastics, Igus ©
+		</p>
+	</div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import BluetoothScanner from './components/BluetoothScanner.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+	BluetoothScanner
   }
 }
 </script>
