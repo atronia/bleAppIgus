@@ -42,7 +42,7 @@ export default {
 			try {
 				console.log('Scanninf for uuid:', this.local_uuid);
 				const device = await navigator.bluetooth.requestDevice({
-					filters: [{ namePrefix: "iCeePlus" }, 
+					filters: [{ namePrefix: "iCeeplus" }, 
 								{services: [this.local_uuid]}],
 					optionalServices: [this.local_uuid]
 				});
