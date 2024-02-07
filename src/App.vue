@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/iguslogo.png">
-  <HelloWorld msg="Welcome to iCee BLE App"/>
+  <HelloWorld msg="Welcome to iCee BWA"/>
 	<div>
 	<BluetoothScanner />
 	</div>

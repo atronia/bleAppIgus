@@ -35,7 +35,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 * Before make add include <linux/sockios.h> to files ```l2test.c``` and ```rctest.c```
 
-## BLE App based on python project
+## BLE App based on python project Requisites
+* edit /boot/config.txt and comment Bluetooth disable line
+* install git, or make BLElocal project
 * https://github.com/Douglas6/cputemp
 * *  sudo nano /etc/systemd/system/dbus-org.bluez.service add the line 
 ```
