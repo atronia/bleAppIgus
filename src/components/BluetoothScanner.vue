@@ -1,7 +1,7 @@
 <!-- BluetoothScanner.vue -->
 <template>
 	<div>
-		<h2>Bluetooth Device Scanner</h2>
+		<h2>BLE Web Application</h2>
 		
 		<!--
 			<label for="inputUID">Enter Value:</label>
